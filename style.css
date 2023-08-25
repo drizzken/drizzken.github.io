@@ -10,7 +10,14 @@
 html{
     scroll-behavior: smooth;
 }
-
+.flip{
+    transform: scaleX(-1);
+}
+.container{
+    width: 20%;
+    height: 20%;
+    position: relative;
+}
 /* custom scroll bar */
 ::-webkit-scrollbar {
     width: 10px;
@@ -626,7 +633,7 @@ footer span a:hover{
     .about .about-content .left{
         display: flex;
         justify-content: center;
-        margin: 0 auto 60px;
+        margin: 0 auto 80px;
     }
     .about .about-content .right{
         flex: 100%;
